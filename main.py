@@ -12,8 +12,8 @@ import urllib.parse
 from telethon.errors import UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 import re
-tbot = TelegramClient('FilterSearchBot', Config.API_ID, Config.API_HASH).start(bot_token=Config.BOT_TOKEN)
-client = TelegramClient(StringSession( Config.USER_SESSION_STRING), Config.API_ID, Config.API_HASH)
+tbot = TelegramClient('FilterSearchBot', Config.23623198, Config.2f71d58158f33d9560825858ab93434b).start(bot_token=Config.6897415564:AAGVZrqs-noK5VPdL1wLBZFygRtcgy7JGpA)
+client = TelegramClient(StringSession( Config.BQArPL3lZgoA0tfNaVGPn6m-G8xnMx-m9DJseOo4cYHKP7ro0DCiSG5SED1RTWIWY_cHJmY7WeT0ZRRRxz5EMPtyM4xvklqXNRirHORbr_A-f4--jNGxhJIiREGlKQulnIGeCdmwiEGz8zhRHUOIp3lQ0odkrQVle9gGmYVUYZpZDtQrzKa-P5P1VVliF0Th2oWGKO7cUFrK2QCts_Z1DeFAQJod4edz_ngII8WTAI6BzI-xwJkAsBDN4sRfD87dGj4kNtHceXT2bAE4r7kSDG0sYwltmKCoHY8HNUkHc3Won_mnkgICx4bT9I7MgcwTS2oQgv6ZsrhbZV-o_hGk1BAfAAAAAS99tzsA), Config.23623198, Config.2f71d58158f33d9560825858ab93434b)
 
 
 async def get_user_join(id):
