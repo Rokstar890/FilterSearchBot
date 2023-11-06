@@ -12,7 +12,7 @@ import urllib.parse
 from telethon.errors import UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 import re
-tbot = TelegramClient('mdisktelethonbot', Config.API_ID, Config.API_HASH).start(bot_token=Config.BOT_TOKEN)
+tbot = TelegramClient('FilterSearchBot', Config.API_ID, Config.API_HASH).start(bot_token=Config.BOT_TOKEN)
 client = TelegramClient(StringSession( Config.USER_SESSION_STRING), Config.API_ID, Config.API_HASH)
 
 
